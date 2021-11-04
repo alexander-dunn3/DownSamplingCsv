@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\alexander.dunn\source\repos\DownSamplingCsv\DownSamplingCsv\DownSamplingCsv\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\alexander.dunn\source\repos\DownSamplingCsv\DownSamplingCsv\DownSamplingCsv\.editorconfig" />
+  </ItemGroup>
+
 </Project>
