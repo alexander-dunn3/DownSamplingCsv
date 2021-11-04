@@ -84,4 +84,5 @@ string outputContents = string.Join(Environment.NewLine, header);
 outputContents += string.Join(Environment.NewLine, downSampledRows);
 Console.WriteLine($"Writing file {outputPath} to disk...");
 File.WriteAllText(outputPath, outputContents);
-Console.WriteLine("Done");
+Console.WriteLine("Done. Please press any key to finish.");
+Console.ReadKey();
